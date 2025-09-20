@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lennon Script</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #007bff, #0056b3);
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background-color: rgba(0,0,0,0.4);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+      animation: fadeIn 1s ease-in-out;
+    }
+    h1 {
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: block;
+      margin: 12px auto;
+      padding: 15px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      width: 220px;
+      text-align: center;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .premium {
+      background: gray;
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+    .chilli {
+      background: linear-gradient(90deg, #ff7b00, #ff4500);
+      color: white;
+    }
+    .kurd {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: white;
+    }
+    .lennon {
+      background: linear-gradient(90deg, #28a745, #218838);
+      color: white;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lennon Script</h1>
+
+    <!-- Botón Premium bloqueado -->
+    <a class="btn premium">🔒 Premium</a>
+
+    <!-- Nuevos botones con tu link -->
+    <a href="https://www.roblox.com/share?code=b11df842f2a3bb4fa152b4328303effe&type=Server" class="btn chilli" target="_blank">⚡ Get Chilli Hub</a>
+    <a href="https://www.roblox.com/share?code=b11df842f2a3bb4fa152b4328303effe&type=Server" class="btn kurd" target="_blank">⚡ Get Kurd Hub</a>
+    <a href="https://www.roblox.com/share?code=b11df842f2a3bb4fa152b4328303effe&type=Server" class="btn lennon" target="_blank">⚡ Get Script Lennon</a>
+  </div>
+</body>
+</html>
